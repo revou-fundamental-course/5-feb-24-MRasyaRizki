@@ -17,7 +17,7 @@
     padding:8px;
 }
 
-#navition:hover{
+#navigation:hover{
     color:red;
 }
 
@@ -26,15 +26,35 @@
 .input-section{
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .input-field {
     outline: none;
     border-radius: 8px;
     border:solid black;
-    padding:8px 16px
+    padding:8px 16px;
 }
 
 .input-field:focus{
     border:solid blue;
+}
+
+.Choice{
+    background-color: cyan;
+    color:black;
+    border-radius: 8px;
+    border:none;
+    padding:8px;
+    cursor: pointer;
+    margin-top: 4px;
+    
+}
+.Choice:focus{
+    background-color: darkcyan;
+}
+
+.Choice:active{
+    background-color: darkcyan;
+    transform: translateY(3px);
 }
